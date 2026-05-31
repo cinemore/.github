@@ -31,13 +31,13 @@ The product combines media library management, NAS/private-cloud workflows, meta
 
 | Project | What it is | Highlights |
 | --- | --- | --- |
-| [CinePlayer](https://github.com/cinemore/CinePlayer) | An open-source Apple player application built on top of CinePlayerSDK. | iOS, macOS, tvOS, and visionOS playback UI; HDR/Dolby Vision-oriented playback workflows; subtitles, Blu-ray ISO/BDMV, media info, gestures, shortcuts, PiP, and Anime4K enhancement integration. |
+| [CinePlayer](https://github.com/cinemore/CinePlayer) | An open-source Apple player application built on top of CinePlayerSDK. | iOS, macOS, tvOS, and visionOS playback UI; HDR and Dolby Vision playback support; subtitles, Blu-ray ISO/BDMV, media info, gestures, shortcuts, PiP, and Anime4K enhancement integration. |
 | [anime4k-metal](https://github.com/cinemore/anime4k-metal) | Native Apple Metal Anime4K image enhancement as a Swift package and CLI. | `CVPixelBuffer` and `CGImage` APIs, bundled Anime4K shader resources, SwiftPM integration, and a macOS CLI. |
 | [rife-metal](https://github.com/cinemore/rife-metal) | Native Apple Silicon RIFE frame interpolation as a Swift package and CLI. | Practical-RIFE v4.26 weights, MPSGraph inference, custom Metal warp kernel, multi-frame interpolation, and quality tiers for different performance targets. |
 
 ## Areas We Care About
 
-- **Playback quality**: HDR, Dolby Vision-oriented workflows, Blu-ray sources, subtitles, audio/video detail, and smooth controls.
+- **Playback quality**: HDR, Dolby Vision playback, Blu-ray sources, subtitles, audio/video detail, and smooth controls.
 - **Media library experience**: local folders, NAS, private cloud, metadata scraping, viewing progress, and multi-user spaces.
 - **Apple platform performance**: AVFoundation, Swift, SwiftUI, Metal, MPSGraph, and native media pipelines.
 - **Open building blocks**: practical libraries and tools that can be studied, reused, and integrated into other Apple media applications.
@@ -87,13 +87,13 @@ Cinemore 的目标很明确：把个人影视收藏变成跨设备、稳定、�
 
 | 项目 | 说明 | 重点能力 |
 | --- | --- | --- |
-| [CinePlayer](https://github.com/cinemore/CinePlayer) | 基于 CinePlayerSDK 构建的 Apple 平台开源播放器应用。 | 覆盖 iOS、macOS、tvOS、visionOS 的播放界面；面向 HDR/杜比视界的播放工作流；字幕、蓝光 ISO/BDMV、媒体信息、手势、快捷键、画中画和 Anime4K 增强集成。 |
+| [CinePlayer](https://github.com/cinemore/CinePlayer) | 基于 CinePlayerSDK 构建的 Apple 平台开源播放器应用。 | 覆盖 iOS、macOS、tvOS、visionOS 的播放界面；支持 HDR 与杜比视界播放；字幕、蓝光 ISO/BDMV、媒体信息、手势、快捷键、画中画和 Anime4K 增强集成。 |
 | [anime4k-metal](https://github.com/cinemore/anime4k-metal) | 基于 Apple Metal 的 Anime4K 图像增强 Swift Package 与 CLI。 | 提供 `CVPixelBuffer` 和 `CGImage` API，内置 Anime4K shader 资源，支持 SwiftPM 集成和 macOS 命令行工具。 |
 | [rife-metal](https://github.com/cinemore/rife-metal) | 基于 Apple Silicon 的 RIFE 帧插值 Swift Package 与 CLI。 | 内置 Practical-RIFE v4.26 权重，使用 MPSGraph 和自定义 Metal warp kernel，支持多帧插值和不同性能目标的质量档位。 |
 
 ## 我们关注的方向
 
-- **播放质量**：HDR、杜比视界相关工作流、蓝光片源、字幕、音视频细节和顺滑控制。
+- **播放质量**：HDR、杜比视界播放、蓝光片源、字幕、音视频细节和顺滑控制。
 - **媒体库体验**：本地文件夹、NAS、私有云、元数据刮削、观看进度和多用户空间。
 - **Apple 平台性能**：AVFoundation、Swift、SwiftUI、Metal、MPSGraph 和原生媒体管线。
 - **可复用开放组件**：让更多 Apple 媒体应用可以研究、复用和集成的实用库与工具。
